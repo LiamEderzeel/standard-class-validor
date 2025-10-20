@@ -1,0 +1,35 @@
+{
+  "esm": true,
+  "compilerOptions": {
+    "strict": true,
+    "module": "Preserve",
+    "target": "esnext",
+    "moduleResolution": "Bundler",
+    "sourceMap": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "noUncheckedIndexedAccess": false,
+    "useUnknownInCatchVariables": true,
+    "resolveJsonModule": true,
+    "tsBuildInfoFile": "./.buildcache/cache",
+    "strictPropertyInitialization": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDirs": [
+      "src"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "test/",
+    "dist/",
+    "node_modules/"
+  ]
+}
